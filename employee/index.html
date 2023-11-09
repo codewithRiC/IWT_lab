@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <div class="main">
+        <div class="head">
+           <h1>Employee Information</h1>
+        </div>
+        <div class="form">
+         <form action="process_form.php" method="post">
+            <label for="Emp_name">Employee Name:</label>
+            <input type="text" name="Emp_name" required><br><br>
+            
+            
+            <label for="Emp_desg">Employee Designation:</label>
+            <select id="Emp_desg" name="Emp_desg">
+                <option value="CEO">CEO</option>
+                <option value="Manager">Manager</option>
+                <option value="Assistant Manager">Assistant Manage</option>
+                <option value="Staff">Staff</option>
+            </select><br><br>
+            <p><b>Gender</b></p>
+            <input type="radio" id="Male" name="Gender" value="MALE">
+            <label for="Male">MALE</label><br>
+            <input type="radio" id="Female" name="Gender" value="FEMALE">
+            <label for="Female">FEMALE</label><br>
+            <input type="radio" id="Others" name="Gender" value="Others">
+            <label for="Others">Others</label><br><br><br>
+
+            <p><b>Hobbies</b></p>
+
+            <input type="checkbox" id="Hobbies" name="Hobbies[]" value="Cricket">
+            <label for="Hobbies1"> Play Cricket</label><br>
+            <input type="checkbox" id="Hobbies" name="Hobbies[]" value="Football">
+            <label for="Hobbies2"> Play Football</label><br>
+            <input type="checkbox" id="Hobbies" name="Hobbies[]" value="Read">
+            <label for="Hobbie31"> Reading</label><br><br><br>
+
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br><br>
+            
+            <label for="address">Address:</label>
+            <textarea name="address" rows="4" cols="50"></textarea><br><br>
+
+            <label for="Phone">Phone number:</label>
+            <input type="number" name="Phone" required><br><br>
+            
+
+
+            
+            <label for="hire_date">Date of Joining:</label>
+            <input type="date" name="hire_date" required><br><br>
+            
+            <input type="submit" value="Submit">
+         
+        </form>
+        </div>
+    </div>    
+    
+</body>
+</html>
+

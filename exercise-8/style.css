@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: rgb(80, 188, 188);
+  margin-top: 100px;
+}
+
+.container{
+  background-color: #34213f;
+    max-width: 80%; 
+    padding: 34px; 
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #6ecae6;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+  
+}
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9; /* adjust opacity to make the image darker */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    z-index: -1;
+   
+  }
+  
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: rgb(128, 211, 237);
+    background: rgb(0, 90, 128);
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitMsg{ 
+    color: rgb(70, 174, 208);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgba(59, 126, 143, 0.767); /* semi-transparent white background */
+  color: #000000; /* adjust font color to make it more visible */
+}
+
+table td,
+table th {
+  border: 1px solid #a2c8eb;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #8ae9f4;
+}
+
+table tr:hover {
+  background-color: #5f82d3ea;
+}
+a.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+ 
+}

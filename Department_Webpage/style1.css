@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(249, 246, 253);
+    box-sizing: border-box;
+}
+.header{
+    
+    display: flex;
+    padding: 10px;
+    background-color: rgb(17, 3, 29);
+    border-radius: 4px;
+   
+}
+
+.header .logo{
+   
+    background-size: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+.header .name{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.navbar{
+    background-color: rgb(237, 224, 245);
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+    
+}
+
+.home{
+    display: flex;
+    padding-top: 20px;
+}
+ a{
+    font-weight: 1000; 
+    text-decoration: none;
+    color: black;
+}
+
+.abt{
+    background-color: bisque;
+}
+
+
+.abt .p{
+    color: bisque;
+    font-size: large;
+}

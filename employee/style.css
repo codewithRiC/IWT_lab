@@ -1,0 +1,92 @@
+/* Reset some default styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6f5ae4a1;
+}
+
+/* Style the container */
+.head{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: rgb(4, 60, 42);
+
+}
+h1 {
+  display: flex;
+  text-align: center;
+  
+  color: white;
+  padding-left: 10px;
+  padding: 20px;
+  margin: 0;
+}
+
+.form {
+  border: 2px solid red;
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 10px;
+  background-color: #eadada;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+label {
+  display: flexbox;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="date"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056a4;
+}
+
+/* Add some spacing between form elements */
+br {
+  clear: both;
+}
+
+/* Style the error message (for HTML5 "required" attribute) */
+input:invalid {
+  border-color: #ff6347;
+}
+
+/* Additional styling for the address field */
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: Center the form on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

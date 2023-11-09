@@ -1,0 +1,82 @@
+body{
+    background-color: aquamarine;
+}
+.whole{
+    display: block;
+    justify-content: center;
+   
+    background-color: rgb(54, 25, 59);
+    margin-left: 400px;
+    margin-top:100px;
+    margin-right: 400px;
+    padding: 30px;
+    
+
+
+}
+
+
+ 
+h1{
+    color: bisque;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif , fantasy;
+}
+h4{
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif , fantasy;
+}
+
+
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.label1{
+    align-items: center;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(76, 204, 204);
+    margin-left: 40px;
+}
+
+.btn{
+    color: white;
+    background: rgb(88, 239, 239);
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.body_img{
+    height: 650px;
+    width:650px;
+    margin-left:100px ;
+    
+}
+
+.label_reg{
+    margin-top: 50px;
+    font-size: 20px;
+}
