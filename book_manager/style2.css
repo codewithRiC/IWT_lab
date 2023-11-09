@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: medium;
+   
+}
+body{
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading{
+    margin-top: 50px;
+    font-family: 'Gill Sans'  cursive;
+    font-size: 80px;
+    color: rgb(250, 247, 243);
+}
+
+.searchBox{
+    width: 40vw;
+    height: 40px;
+    border: 1px solid rgb(254, 246, 246);
+    border-radius: 20px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(247, 243, 239);
+}
+
+.searchBox input{
+    width: 80%;
+    height: 90%;
+    margin: auto 5px; 
+    border: 0;
+    outline: none;
+     color: rgb(22, 22, 21);
+}
+
+.searchBtn{
+   
+    font-size: 30px;
+    font-weight: 500;
+   color: rgb(16, 17, 17);
+}
+
+.searchBtn:hover{
+    color: aquamarine;
+    
+}
+
+.cardBox{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.card {
+    height: 440;
+    width: 340px;
+    border: 2px solid rgb(19, 17, 17);
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    background-color: azure;
+}
+
+.card:hover{
+    bottom: 10px;
+}
+
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-author {
+    font-size: 14px;
+    color: rgb(11, 10, 10);
+  }
+  
+  .card-image {
+    
+    margin: 10px;
+    /* width: 100; */
+  }
+
+.desc{
+   
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Set the number of lines you want to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
