@@ -1,0 +1,19 @@
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.teach{
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background: white;
+}
+
+.teachers .teach img{
+
+    height: 150px;
+}

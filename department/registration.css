@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #FEF7E7;
+}
+
+.container{
+    width: 100%;
+    max-width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    margin: 7px;
+}
+
+
+label{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#btn{
+    margin: 7px;
+   
+}
+
+/* input:last-child{  
+    margin: 7px;
+    font-size: 20px;
+    padding: 5px;
+} */
+
+legend{
+    font-size: 15px;
+   
+}
